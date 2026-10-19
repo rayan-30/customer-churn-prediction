@@ -1,0 +1,40 @@
+{
+  "model": "XGBoost",
+  "threshold": 0.58,
+  "feature_columns": [
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "PaperlessBilling",
+    "MonthlyCharges",
+    "TotalCharges",
+    "NumAddons",
+    "HasProtection",
+    "NewCustomer",
+    "FiberMonthToMonth",
+    "AvgMonthlySpend",
+    "PriceChange",
+    "IsMale",
+    "InternetService_Fiber optic",
+    "InternetService_No",
+    "Contract_One year",
+    "Contract_Two year",
+    "PaymentMethod_Credit card (automatic)",
+    "PaymentMethod_Electronic check",
+    "PaymentMethod_Mailed check"
+  ],
+  "assumptions": {
+    "clv": 10000,
+    "offer_cost": 1000,
+    "success_rate": 0.3
+  }
+}
